@@ -1,0 +1,15 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.tfvars
+*.terraform.tfstate.lock.info
+
+# Sensitive data
+*.pem
+*.key
+*.cert
+
+# Logs
+*.log
+EOF
